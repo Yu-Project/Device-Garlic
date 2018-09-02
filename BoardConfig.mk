@@ -32,6 +32,9 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 5003804672
 # Reserve Space in UserData Partition to Support FS-Encryption (24892644352 - 16384):
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 24892627968
 
+# FileSystem
+TARGET_EXFAT_DRIVER := exfat
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
